@@ -50,19 +50,19 @@ function App() {
                 <p>La sélection des Joies du Code</p>
               </div>
               <div>
-                <img class="centre" src="https://lesjoiesducode.fr/wp-content/uploads/2020/09/Sans-titre-12-150x150.jpg"/><br />
+                <img class="centre" src="https://lesjoiesducode.fr/wp-content/uploads/2020/09/Sans-titre-12-150x150.jpg" alt=""/><br />
                 <p>Quand je découvre combien je suis facturé au client</p>
               </div>
               <div>
-                <img class="centre" src="https://lesjoiesducode.fr/wp-content/uploads/2020/08/Sans-titre-16-150x150.jpg"/><br />
+                <img class="centre" src="https://lesjoiesducode.fr/wp-content/uploads/2020/08/Sans-titre-16-150x150.jpg" alt=""/><br />
                 <p>Quand le commercial dit qu'il n'y a pas de base de données pour le projet car le client a dit "NoSQL"</p>
               </div>
               <div>
-                <img class="centre" src="https://lesjoiesducode.fr/wp-content/uploads/2020/09/Sans-titre-7-150x150.jpg"/><br />
+                <img class="centre" src="https://lesjoiesducode.fr/wp-content/uploads/2020/09/Sans-titre-7-150x150.jpg" alt=""/><br />
                 <p>Quand je m'apprête à quitter le bureau àprès une dernière compilation et que la console me renvoie plein d'erreurs</p>
               </div>
               <div>
-                <img class="centre" src="https://lesjoiesducode.fr/wp-content/uploads/2020/08/Sans-titre-26-150x150.jpg"/><br />
+                <img class="centre" src="https://lesjoiesducode.fr/wp-content/uploads/2020/08/Sans-titre-26-150x150.jpg" alt=""/><br />
                 <p>Mon cerveau quand j'ai déjà utilisé i,j et k pour mes variables d'incrémentation</p>
               </div>
             </div>
