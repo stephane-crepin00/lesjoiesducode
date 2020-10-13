@@ -27,6 +27,41 @@
 .App-link {
   color: #61dafb;
 }
+.root{
+  border: solid black 5px;
+  width: 100%
+}
+
+.border-header{
+  border: solid red 5px;
+  width: 100%
+}
+
+.border-content{
+  border: solid green 5px;
+  width: 100%
+}
+
+.border-footer{
+  border: solid blue 5px;
+  width: 100%
+}
+
+.home
+{
+    background:black;
+    color:white;
+    font-weight:bold
+}
+
+.cine {
+  display:block;
+  width:390px;
+  height:220px;
+  background:url(https://lesjoiesducode.fr/quand-on-nous-demande-dajouter-une-fonctionnalite-dans-une-appli-vieille-de-15-ans) center no-repeat;
+  font-size:16px;
+  font-weight:bold;
+}
 
 @keyframes App-logo-spin {
   from {
