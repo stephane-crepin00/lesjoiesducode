@@ -6,9 +6,9 @@ function App() {
     <div class="root">
       <header class="header" class="border-header">
         <div class="p">
-          <a class="home" href="#">Les joies du code ();</a>
-          <a href="#">Random</a>
-          <a href="#">Jobs</a>
+          <a class="home">Les joies du code ();</a>
+          <a>Random</a>
+          <a>Jobs</a>
           <input type="text" placeholder="Rechercher"/>
           <button type="button">Propose un post</button>
         </div>
@@ -34,10 +34,10 @@ function App() {
             <div class="posts">
               <p>Plus de posts</p>
               <div class="info">
-                <a class="cine1" href="#">Quand on nous demande d'ajouter une fonctionnalité dans une appli veille de 15 ans</a>
-                <a class="cine2" href="#">Quand je revert accidentellement tous mes changements</a>
-                <a class="cine3" href="#">Quand aucun de mes tests ne passe</a>
-                <a class="cine4" href="#">Quand je réalise que je viens de supprimer le trunk du projet et que mon collègue me demande si je veux un café</a>
+                <a class="cine1">Quand on nous demande d'ajouter une fonctionnalité dans une appli veille de 15 ans</a>
+                <a class="cine2">Quand je revert accidentellement tous mes changements</a>
+                <a class="cine3">Quand aucun de mes tests ne passe</a>
+                <a class="cine4">Quand je réalise que je viens de supprimer le trunk du projet et que mon collègue me demande si je veux un café</a>
               </div>
             </div>
           </div>
@@ -82,9 +82,9 @@ function App() {
       </div>
       <footer class="footer" class="border-footer">
         <div>
-        <a href="#">The coding Love [EN]</a>
-        <a href="#">Contact</a>
-        <a href="#">CGU</a>
+        <a>The coding Love [EN]</a>
+        <a>Contact</a>
+        <a>CGU</a>
         <p>Les Joies du Code © 2012-2020 Nicolas Lecointre, tous droits réservés.</p>
         </div>
       </footer>
