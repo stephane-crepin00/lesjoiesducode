@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div class="root">
-      <header class="header" class="border-header">
+      <header class="border-header">
         <div class="p">
           <a class="home" href="www.google.fr">Les joies du code ();</a>
           <a href="www.google.fr">Random</a>
@@ -34,10 +34,10 @@ function App() {
             <div class="posts">
               <p>Plus de posts</p>
               <div class="info">
-                <a class="cine1" href="">Quand on nous demande d'ajouter une fonctionnalité dans une appli veille de 15 ans</a>
-                <a class="cine2" href="">Quand je revert accidentellement tous mes changements</a>
-                <a class="cine3" href="">Quand aucun de mes tests ne passe</a>
-                <a class="cine4" href="">Quand je réalise que je viens de supprimer le trunk du projet et que mon collègue me demande si je veux un café</a>
+                <a class="cine1" href="www.google.fr">Quand on nous demande d'ajouter une fonctionnalité dans une appli veille de 15 ans</a>
+                <a class="cine2" href="www.google.fr">Quand je revert accidentellement tous mes changements</a>
+                <a class="cine3" href="www.google.fr">Quand aucun de mes tests ne passe</a>
+                <a class="cine4" href="www.google.fr">Quand je réalise que je viens de supprimer le trunk du projet et que mon collègue me demande si je veux un café</a>
               </div>
             </div>
           </div>
@@ -50,19 +50,19 @@ function App() {
                 <p>La sélection des Joies du Code</p>
               </div>
               <div>
-                <img class="centre" src="https://lesjoiesducode.fr/wp-content/uploads/2020/09/Sans-titre-12-150x150.jpg" alt="image" /><br />
+                <img class="centre" src="https://lesjoiesducode.fr/wp-content/uploads/2020/09/Sans-titre-12-150x150.jpg"/><br />
                 <p>Quand je découvre combien je suis facturé au client</p>
               </div>
               <div>
-                <img class="centre" src="https://lesjoiesducode.fr/wp-content/uploads/2020/08/Sans-titre-16-150x150.jpg" alt="image" /><br />
+                <img class="centre" src="https://lesjoiesducode.fr/wp-content/uploads/2020/08/Sans-titre-16-150x150.jpg"/><br />
                 <p>Quand le commercial dit qu'il n'y a pas de base de données pour le projet car le client a dit "NoSQL"</p>
               </div>
               <div>
-                <img class="centre" src="https://lesjoiesducode.fr/wp-content/uploads/2020/09/Sans-titre-7-150x150.jpg" alt="image" /><br />
+                <img class="centre" src="https://lesjoiesducode.fr/wp-content/uploads/2020/09/Sans-titre-7-150x150.jpg"/><br />
                 <p>Quand je m'apprête à quitter le bureau àprès une dernière compilation et que la console me renvoie plein d'erreurs</p>
               </div>
               <div>
-                <img class="centre" src="https://lesjoiesducode.fr/wp-content/uploads/2020/08/Sans-titre-26-150x150.jpg" alt="image" /><br />
+                <img class="centre" src="https://lesjoiesducode.fr/wp-content/uploads/2020/08/Sans-titre-26-150x150.jpg"/><br />
                 <p>Mon cerveau quand j'ai déjà utilisé i,j et k pour mes variables d'incrémentation</p>
               </div>
             </div>
@@ -80,7 +80,7 @@ function App() {
           </div>
         </div>
       </div>
-      <footer class="footer" class="border-footer">
+      <footer class="footer">
         <div>
         <a href="www.google.fr">The coding Love [EN]</a>
         <a href="www.google.fr">Contact</a>
