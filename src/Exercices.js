@@ -11,7 +11,7 @@ function square_triangle_rectangle(base, hauteur) {
 }
 
 function perimètre_triangle_rectangle(largeur, longueur) {
-    return (2 *(largeur + longueur))
+    return (Math.hypot(largeur, longueur))
 }
 
 function convert_Kelvin_to_Celsius(K) {
@@ -53,7 +53,7 @@ console.log(square_rectangle(10, 14))
 console.log(perimètre_rectangle(10, 14))
 console.log(square_triangle_rectangle(20, 18))
 console.log(perimètre_triangle_rectangle(20, 18))
-console.log(convert_Kelvin_to_Celsius(12))
+console.log(convert_Kelvin_to_Celsius(50))
 console.log(perimètre_cercle(8))
 console.log(square_cercle(8))
 console.log(give_me_money(15, 20))
