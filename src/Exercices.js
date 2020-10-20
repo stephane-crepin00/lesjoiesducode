@@ -11,7 +11,7 @@ function square_triangle_rectangle(base, hauteur) {
 }
 
 function perimètre_triangle_rectangle(largeur, longueur) {
-    return (Math.hypot(largeur, longueur))
+    return (Math.hypot(largeur, longueur) + largeur + longueur)
 }
 
 function convert_Kelvin_to_Celsius(K) {
