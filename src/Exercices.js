@@ -31,10 +31,7 @@ function give_me_money(price, billAmount) {
 }
 
 function how_many_days(prix, budget) {
-    const a = budget % prix
-    const b = budget - a
-    const c = b / prix
-    return `Je peux partir ${c} jours et il me reste ${a} euros`
+    return `Je peux partir ${(budget - (budget % prix)) / prix} jours et il me reste ${budget % prix} euros`
 }
 
 function pair(nombre) {
