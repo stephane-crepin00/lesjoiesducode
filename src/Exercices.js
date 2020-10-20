@@ -46,6 +46,33 @@ function delete_last_letter(word) {
     return word.slice(0, -1)
 }
 
+function voyage(conso, réservoir, distance) {
+    let cmpt = 0
+    let tank = réservoir
+
+    while (distance != 0) {
+        if (réservoir > 0) {
+            réservoir = réservoir - conso
+        }
+        else {
+            cmpt++
+            réservoir = tank
+        }
+        distance--
+    }
+    return `Il y a besoin de ${cmpt - 1} plein`
+}
+
+function essence(distance, reservoir, consommation) {
+    const a = distance * consommation
+    const b = a / reservoir
+    if (b < 1) {
+        return "Un plein d'essence suffit"
+    } else {
+        return `Il faut faire ${b-1} pleins d'essences en plus`
+    }
+}
+
 console.log(square_rectangle(10, 14))
 console.log(perimètre_rectangle(10, 14))
 console.log(square_triangle_rectangle(20, 18))
@@ -58,3 +85,5 @@ console.log(how_many_days(10, 100))
 console.log(pair(28))
 console.log(delete_first_letter("bonjour"))
 console.log(delete_last_letter("Bonjour"))
+console.log(voyage(5, 60, 100))
+console.log(essence(5, 60, 100))
